@@ -291,3 +291,24 @@ a {
 .center h1 {
     text-align: center;
 }
+
+.pagination-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 1rem .5rem;
+}
+
+.pagination .page-item {
+    text-decoration: none;
+    background: var(--color-gray-3);
+    padding: .5rem 1rem;
+}
+
+.pagination .page-link {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+.pagination .page-current {
+    background: var(--color-primary-dark);
+}
